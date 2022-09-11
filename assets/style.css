@@ -1,0 +1,14 @@
+/* Color Scheme */ 
+:root {
+    --darkblue: #0c0d18;
+    --charcoal: #eff1f0d9;
+    --offwhite: #eff1f0d9;
+    --lightblue: #7cafd1;
+   }
+
+
+
+  /* background-image: linear-gradient(
+        rgba(124, 175, 209, 0.2) 0%,
+        rgba(124, 175, 209, 0.5) 100%
+    ); /*
