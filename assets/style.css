@@ -1,4 +1,4 @@
-/* Color Scheme */ 
+/* project color scheme */ 
 :root {
     --darkBlue: #0c0d18;
     --charCoal: #eff1f0d9;
@@ -6,11 +6,13 @@
     --lightBlue: #7cafd1;
    }
 
-   *{
+/* generic note */
+
+/* *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-   }
+   } */
 
    body {
     background-color: var(--darkBlue);
@@ -19,28 +21,66 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
 
-
-   h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 1.3rem;
-    line-height: 1.1;
-   }
-
+   
+   
+/* header styling */
    h1 {
     font-size: 4rem;
     font-weight: 900;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-   }
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.1;
+    position: relative;
+    top: 2.3rem;
+    left: 1rem;
+    }
+
+/* navigation bar styling */
+
+.header nav {
+    padding-top: 1rem;
+    margin-right: 1.3rem;
+    float: right;
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 0.3rem;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* hero image styling */
+    #heroImage {
+        width: 100%;
+    }
+
+/* main text adjustment*/    
 
    h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 400;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   }
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    }
 
-   #heroImage {
-    width: 100%;
-   }
+    #aboutMe {
+        display: flex;
+        margin: 1rem;        
+    }
 
+    #aboutMe h2 {
+        padding-right: 8rem;
+        
+    }
+    
+
+/* image sizes */    
    #mainProject {
     float: left;
     width: 30rem;
@@ -60,4 +100,29 @@
   /* background-image: linear-gradient(
         rgba(124, 175, 209, 0.2) 0%,
         rgba(124, 175, 209, 0.5) 100%
-    ); /*
+    ); */
+    
+
+
+
+  /*  @media screen and (min-width: 768px) {
+    .card-column {
+        flex: 0 0 50%;
+    }
+
+    .card-column:last-child {
+        flex-grow: 1;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        width: 75;
+    }
+
+    .card-column {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+}*/
