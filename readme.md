@@ -1,9 +1,13 @@
 
 
+Screenshot of website at x pixels (1200 width?)
+Screenshot of website at x pixels
+Screenshot of website at x pixels
 
 __developer personal notes__
 Thresholds- 992 for Tablet, 768 for smartphone
 
-If About Me doesn't work in 1 line, use two paragraph elements and make a psuedoheader by adjusting font size. 
 
-Professional Summary / About Me Draft: 11 year executive / personal assistant. 10 years food industry, plus music. Very used to teaching myself things and working with google as my main guide. In my freetime, I play D&D twice a week, write music, and watch football with my husband.
+__about me copy__
+Professional Summary / About Me Draft: Hi there, I'm John! I just graduated Georgia Tech's Full Stack Web Developer Bootcamp! After 11 years working as a personal and executive assistant, I'm ready for a new long term career. I hope it can be with your company! Orginaization, communication, and mastery of using google are just a few skills I bring. In my freetime, I play D&D twice a week, write music, and watch football with my husband.
+
