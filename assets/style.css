@@ -28,7 +28,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 1rem;
 }
 
@@ -59,7 +59,26 @@ header nav ul li {
 }
   
 
-/* about me text and styling */    
+/* about me text and styling */  
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1vw;
+    padding-top: 2vw;
+    font-size: 1vw;
+}
+
+article h2 {
+    flex: 1 1 33.33%;
+    font-size: 3vw;
+    white-space: nowrap;
+}
+
+article p {
+    flex: 1 1 66.66%
+}
 
 
 /* project text and main project styling */  
