@@ -1,15 +1,9 @@
-To Do: 
 
-
-Add title text to projects
-Refactor Code
-Note Code
-Write Readme
-
-Experiment: 
 
 Linking webpages on gitpages. If not link to imgur or have a pop up 
 
+
+flex-wrap- wrap causes flexbox to switch lines when too big. nowrap cause the item to shrink. nowrap will cause overflow if not enough size
 
 
 
