@@ -122,10 +122,9 @@
    }
 
    /* flexbox and styling for small projects */
+
    #smallProject {
     display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 100%;
     width: 97%;
     flex-direction: row;
     align-items: center;
@@ -135,9 +134,12 @@
    }
 
    #smallProject img {
+    display: block;
     width: 15rem;
     height: 15rem;
     padding: 1rem;
+    
+    
     
     
    }
