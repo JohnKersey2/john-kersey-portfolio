@@ -1,9 +1,7 @@
 To Do: 
 
-Adjust viewport for tablet 992px
+
 Add title text to projects
-Contact Page
-Link nav to subsections
 Refactor Code
 Note Code
 Write Readme
