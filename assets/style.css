@@ -97,14 +97,55 @@ article p {
 
 /* project text and main project styling */  
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+section h2 {
+    font-size: 3vw;
+    padding-bottom: 1vw;
+}
+
+section figure p {
+    align-items: center;
+}
+
+section figure div img {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+}
+
+#mainProject {
+    max-width: 400px;
+    max-height: 400px;
+}
+
 
 /* flexbox and styling for small projects */
 
 
 /* footer styling */
 
-
-/* Scaling for tablet sized viewport */
+/* Scaling for tablet and desktop */
+@media screen and (min-width: 769px) {
+    #smallProject p {
+        width: 50%;
+        flex: 1;
+    }
+} 
 
 
 /* Scaling for phone sized viewport */
+@media screen and (max-width: 768px) {
+   #mainProject {
+    max-width: 200px;
+    max-height: 200px;
+   }
+   
+}
