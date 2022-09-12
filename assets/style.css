@@ -22,6 +22,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
 
+   h2, p {
+    line-height: 1.2;
+   }
+
 
 /* header and navigation barstyling */  
 
@@ -63,22 +67,32 @@ header nav ul li {
 
 article {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 1vw;
-    padding-top: 2vw;
-    font-size: 1vw;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 1vw;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 article h2 {
-    flex: 1 1 33.33%;
     font-size: 3vw;
     white-space: nowrap;
+    padding-bottom: 1vw;   
 }
 
 article p {
-    flex: 1 1 66.66%
+    text-indent: 2.5rem;
 }
+
+
+
+/* #profilePicture {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+} */
 
 
 /* project text and main project styling */  
