@@ -127,12 +127,35 @@ section figure div img {
 }
 
 
-/* flexbox and styling for small projects */
-
-
 /* footer styling */
 
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 2.5vw;
+}
+
+footer ul li {
+    display: inline-flex;
+    font-size: 1.5vw;
+    padding: .5rem;
+}
+
+#profilePicture {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
 /* Scaling for tablet and desktop */
+
 @media screen and (min-width: 769px) {
     #smallProject p {
         width: 50%;

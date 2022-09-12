@@ -14,9 +14,9 @@
         <h1>John Kersey</h1>
         <nav> <!-- navigation bar-->
             <ul>
-                <li><a href="#"> About Me</a></li>
-                <li><a href="#"> Projects </a></li>
-                <li><a href="#"> Contact</a></li>
+                <li><a href="#aboutMe"> About Me</a></li>
+                <li><a href="#mainProject"> Projects </a></li>
+                <li><a href="#contact"> Contact</a></li>
             </ul>
         </nav>
         
@@ -29,7 +29,7 @@
 
 
     <main>
-        <article> <!-- about me -->
+        <article id="aboutMe"> <!-- about me -->
             <h2>About Me:</h2>
             <p>Hi there, I'm John! I just graduated Georgia Tech's Full Stack Web Developer Bootcamp. After 11 years working as a personal and executive assistant, I'm ready for a new long term career. I hope it can be with your company! Communication, orginization, and Google mastery are just a few skills I bring. In my freetime, I play D&D twice a week, write music, and watch football with my husband.</p>
             <!-- <img id="profilePicture" src="./assets/images/profilepicture.jpg" alt="John Kersey" > -->
@@ -38,20 +38,20 @@
         <section> <!-- projects -->
             <h2> Projects: </h2>
             <figure> <!-- main project / larger than others-->
-                <p>"Google It!" the Gameshow</p>
+                <p> <a href="#mainProject">"Google It!" the Gameshow</a></p>
                 <div> <img id="mainProject" src="./assets/images/googleit.png" alt="digital drawing of a man at a computer puzzling over a tech question with a pocket watch next to him"></div>
             </figure>
         </section>
 
         <section>
             <figure id="smallProject"> <!-- four smaller projects-->
-                <p>Starlight Cafe Menu</p>
+                <p><a href="#smallProject">Starlight Cafe Menu</a></p>
                 <div> <img src="./assets/images/restaurantmenu.png" alt="a coffee house menu drawn in the style of starry night with a coffee cup made out of stars"></div>
-                <p>Barghest: An ARG Novel</p>
+                <p><a href="#smallProject">Barghest: An ARG Novel</a></p>
                 <div> <img src="./assets/images/argnovel.png" alt="a black and white gothic style drawing of a wolf howling at a man sitting down in a library"></div>
-                <p>Dice Roller</p>
+                <p><a href="#smallProject">Dice Roller</a></p>
                 <div> <img src="./assets/images/diceroller.png" alt="a water color drawing of 6 dice rolling on a table from a close up perspective"></div>
-                <p>Meeting Scheduler</p>
+                <p><a href="#smallProject">Meeting Scheduler</a></p>
                 <div> <img src="./assets/images/meeting.png" alt="digital painting of a man on a computer having a virtual meeting with three very different people"></div>
             </figure>
         </section>
@@ -64,11 +64,12 @@
 
 
     <footer> <!-- contact footer -->
-        <h3>Contact:</h3>
+        <h3 id="contact">Contact:</h3>
         <ul>
             <li>678-683-0897 </li>
             <li>Johnkersey2@yahoo.com</li>
             <li><a href="www.linkedin.com/in/johnkersey2">LinkedIn</a></li>
         </ul>
+        <img id="profilePicture" src="./assets/images/profilepicture.jpg" alt="John Kersey">
     </footer>
 </body>
