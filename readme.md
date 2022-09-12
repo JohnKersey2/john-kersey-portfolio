@@ -1,20 +1,45 @@
+To Do:
+
+Make images not booboo at tablet+ size
+
+Change links from words to images
+
+Add screenshot to readme 
+
+# John Kersey Portfolio 
+
+## Task
+In this challenge, I was to create the bare-blocks of a portfolio page I can alter and build up as I develop programs and learn more as a developer. 
+
+## Grading Criteria
+I was to make sure I included:
+
+My name
+A recent photo or avatar
+"About Me" section
+A section showing off my work
+Contact section
+Navigation section that links to appropriate sections internally
+Images for my application
+Application images link to deployed applications
+First application image has to be larger than other application images
+Designed with viewport responsive layout
+Deploy the webpage with no errors and provide a quality respository 
+
+## Screenshot of Webpage 2022-09-12
 
 
-Linking webpages on gitpages. If not link to imgur or have a pop up 
+## Unsolved Issues
+
+No external projects exist, so unable to currently set up project links. As a placeholder, project links will link back to the section or subsection they are in. 
 
 
-flex-wrap- wrap causes flexbox to switch lines when too big. nowrap cause the item to shrink. nowrap will cause overflow if not enough size
+## Future Development Notes
 
+Ensure projects get updated and art changed for real projects
+Get more professional headshot
 
+# Image Copyright
 
-Screenshot of website at x pixels (1200 width?)
-Screenshot of website at x pixels
-Screenshot of website at x pixels
-
-__developer personal notes__
-Thresholds- 992 for Tablet, 768 for smartphone
-
-
-__about me copy__
-Professional Summary / About Me Draft: Hi there, I'm John! I just graduated Georgia Tech's Full Stack Web Developer Bootcamp! After 11 years working as a personal and executive assistant, I'm ready for a new long term career. I hope it can be with your company! Orginaization, communication, and mastery of using google are just a few skills I bring. In my freetime, I play D&D twice a week, write music, and watch football with my husband.
-
+Image "profilepicture.jpg" captured by Marcus Strictland and used with permission. 
+All other images on the webpage I generated using AI and are not subject to copyright.
