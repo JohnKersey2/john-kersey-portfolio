@@ -1,10 +1,17 @@
 /* project color scheme */ 
 :root {
     --darkBlue: #0c0d18;
-    --charCoal: #eff1f0d9;
-    --offWhite: #eff1f0d9;
-    --lightBlue: #7cafd1;
+    --titaniumBlue: #7cafd1;
+    --oceanBlue: #016064;
    }
+
+a:link {
+    color: (var(--titaniumBlue));
+}
+  
+a:visited {
+    color: var(--oceanBlue);
+}   
 
 /* generic note */
 
@@ -16,7 +23,7 @@
 
    body {
     background-color: var(--darkBlue);
-    color: var(--lightBlue);
+    color: var(--titaniumBlue);
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
@@ -95,6 +102,7 @@
         
     }
     
+    
 
 /* project text and main project styling */  
 
@@ -125,12 +133,11 @@
 
    #smallProject {
     display: flex;
-    width: 97%;
+    width: 100%;
     flex-direction: row;
     align-items: center;
-    padding: 1rem;
-    
-   
+    justify-content: center;
+    margin: 0;
    }
 
    #smallProject img {
@@ -138,14 +145,38 @@
     width: 15rem;
     height: 15rem;
     padding: 1rem;
-    
-    
-    
-    
    }
 
+/* footer styling */
+
+   footer {
+    display: flex;
+    margin: 1rem;
+    width: 100%;
+   }
+   
+   h3 {font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    padding-right: 8rem;
+    position: relative;
+    top: 13px
+   }
+
+   footer li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+   }
+
+/* Scaling for tablet sized viewport */
 
 
+
+/* Scaling for phone sized viewport */
 
     @media screen and (max-width: 768px) {
 

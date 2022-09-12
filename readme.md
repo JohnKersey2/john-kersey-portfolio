@@ -1,3 +1,18 @@
+To Do: 
+
+Adjust viewport for tablet 992px
+Add title text to projects
+Contact Page
+Link nav to subsections
+Refactor Code
+Note Code
+Write Readme
+
+Experiment: 
+
+Linking webpages on gitpages. If not link to imgur or have a pop up 
+
+
 
 
 Screenshot of website at x pixels (1200 width?)
