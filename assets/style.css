@@ -171,9 +171,24 @@ footer ul li {
 
 /* Scaling for phone sized viewport */
 @media screen and (max-width: 768px) {
-   #mainProject {
+    header nav ul li {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    #mainProject {
     max-width: 200px;
     max-height: 200px;
    }
+
+   article {
+    margin-left: 5%;
+    margin-right: 5%;
+   }
+
+   footer ul li {
+    display: flex;
+    flex-direction: column;
+}
    
 }
