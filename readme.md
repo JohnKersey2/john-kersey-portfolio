@@ -1,10 +1,3 @@
-To Do:
-
-Make images not booboo at tablet+ size
-
-Change links from words to images
-
-Add screenshot to readme 
 
 # John Kersey Portfolio 
 
@@ -27,7 +20,7 @@ Designed with viewport responsive layout
 Deploy the webpage with no errors and provide a quality respository 
 
 ## Screenshot of Webpage 2022-09-12
-
+![screenshot of webpage](./assets/images/portfolioscreenshot.gif)
 
 ## Unsolved Issues
 
