@@ -37,7 +37,7 @@ header {
 }
 
 h1 {
-    font-size: clamp(44px, 4vw, 4vw);
+    font-size: clamp(42px, 4vw, 4vw);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 1000;
     padding: 1vw;
@@ -47,8 +47,8 @@ h1 {
 header nav ul li {
     display: inline-flex;
     justify-content: flex-end;
-    font-size: 2vw;
-    padding: clamp(24px, 1vw, 1vw);
+    font-size: clamp(14px, 2vw, 2vw);
+    padding: 1vw;
     position: relative;
     top: 1.4vw;
 
@@ -76,9 +76,10 @@ article {
 }
 
 article h2 {
-    font-size: clamp(24px, 3vw, 3vw);
+    font-size: clamp(28px, 3.5vw, 3.5vw);
     white-space: nowrap;
-    padding-bottom: 1vw;   
+    padding-bottom: 1vw;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
 article p {
@@ -97,8 +98,9 @@ section {
 }
 
 section h2 {
-    font-size: clamp(24px, 3vw, 3vw);
+    font-size: clamp(28px, 3.5vw, 3.5vw);
     padding-bottom: 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 section figure p {
@@ -139,18 +141,19 @@ footer {
 }
 
 h3 {
-    font-size: clamp(20px, 2.5vw, 2.5vw);
+    font-size: clamp(18px, 2.5vw, 2.5vw);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 footer ul li {
     display: inline-flex;
-    font-size: clamp(12px, 1.5vw, 1.5vw);
+    font-size: clamp(10px, 1.5vw, 1.5vw);
     padding: .5rem;
 }
 
 #profilePicture {
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 120px;
+    max-height: 120px;
     width: auto;
     height: auto;
 }
