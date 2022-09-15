@@ -2,7 +2,7 @@
 :root {
     --darkBlue: #0c0d18;
     --titaniumBlue: #7cafd1;
-    --oceanBlue: #016064; /* rgb 1, 96, 100 */
+    --oceanBlue: #016064; 
    }
 
 a:link {
@@ -25,7 +25,6 @@ body {
    h2, p {
     line-height: 1.2;
    }
-
 
 /* header and navigation barstyling */  
 
@@ -61,7 +60,6 @@ header nav ul li {
     width: auto;
     height: auto;
 }
-  
 
 /* about me text and styling */  
 
@@ -71,8 +69,8 @@ article {
     align-items: center;
     padding: 1rem;
     padding-top: 1vw;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 article h2 {
@@ -84,51 +82,75 @@ article h2 {
 
 article p {
     text-indent: 2.5rem;
+    text-align: justify;
 }
-
 
 /* project text and main project styling */  
 
-section {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-}
-
-section h2 {
+section div figure h2 {
+    margin-bottom: 0.625rem;
+    color: var(--blush);
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
     font-size: clamp(28px, 3.5vw, 3.5vw);
-    padding-bottom: 1vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-section figure p {
+section div figure h3 {
+    margin-bottom: 0.625rem;
+    color: var(--blush);
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 1.15rem;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-section figure div img {
+main {
+    width: 96%;   
+    margin: 2rem auto;
+  }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.card-column {
+    flex: 0 0 400px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.code-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem; 
+    color: var(--blush);       
+}
+
+.card-header {
     max-width: 200px;
-    max-height: 200px;
-    width: auto;
-    height: auto;
-    padding: 1rem;
 }
 
-#mainProject {
-    max-width: 400px;
-    max-height: 400px;
+.image400 {
+  height: 400px;
+  width: 400px;
 }
 
-.project {
-    border-radius: 8px;
-    transition: all 0.5s ease-in-out;
+.image200 {
+    height: 200px;
+    width: 200px;
 }
-
-.project:hover {
-    box-shadow: inset 0px 0px 8px var(--oceanBlue), 0 0 15px var(--oceanBlue)
-}
-
 
 /* footer styling */
 
@@ -140,7 +162,7 @@ footer {
     padding: 1rem;
 }
 
-h3 {
+h4 {
     font-size: clamp(18px, 2.5vw, 2.5vw);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -158,37 +180,21 @@ footer ul li {
     height: auto;
 }
 
-/* Scaling for tablet and desktop */
+/* Scaling for smaller sized viewports */
 
-/* @media screen and (min-width: 769px) {
-
-    #smallProject div img {
-        
-    }
-
-} */
-
-
-/* Scaling for phone sized viewport */
 @media screen and (max-width: 768px) {
     header nav ul li {
         display: flex;
         flex-direction: column;
     }
-   
-    #mainProject {
-    max-width: 200px;
-    max-height: 200px;
-   }
 
-   article {
-    margin-left: 5%;
-    margin-right: 5%;
-   }
+    .image400 {
+        height: 300px;
+        width: 300px;
+       }
 
    footer ul li {
     display: flex;
     flex-direction: column;
-}
-   
+} 
 }

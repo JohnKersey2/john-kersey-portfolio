@@ -27,44 +27,66 @@
     </figure>
 
 
-
     <main>
         <article id="aboutMe"> <!-- about me -->
             <h2>About Me:</h2>
             <p>Hi there, I'm John! I just graduated Georgia Tech's Full Stack Web Developer Bootcamp. After 11 years working as a personal and executive assistant, I'm ready for a new long term career. I hope it can be with your company! Communication, professionalism, and the ability to use Google are just a few skills I bring. In my freetime, I play D&D twice a week, write music, and watch football with my boyfriend.</p>
-            <!-- <img id="profilePicture" src="./assets/images/profilepicture.jpg" alt="John Kersey" > -->
         </article>
 
-        <section> <!-- projects -->
-            <h2> Projects: </h2>
-            <figure> <!-- main project / larger than others-->
-                <p> <a href="#mainProject">"Google It!" the Gameshow</a></p>
-                <div><a href="#mainProject"><img class="project" id="mainProject" src="./assets/images/googleit.png" alt="digital drawing of a man at a computer puzzling over a tech question with a pocket watch next to him"></a></div>
-            </figure>
-        </section>
+        <section id="mainProject" class="row justify-center"> <!-- main project link with larger image-->
+            <div class="card-column">  
+                <figure class="code-card"> 
+                    <h2><a href="#mainProject">"Google It!" the Gameshow</a></h2> <!-- links set up for when future projects get deployed. Curently linked to itself for the time being -->
+                    <div>
+                        <p> <a href="#mainProject"><img class="image400" src="./assets/images/googleit.png" alt="digital drawing of a man at a computer puzzling over a tech question with a pocket watch next to him"></a></p> <!-- Linking both image and header text because you never know what the user clicks -->
+                    </div>
+                </figure>
+            </div>
+        </section>    
 
-        <section>
-            <figure id="smallProject"> <!-- four smaller projects-->
-                <p><a href="#smallProject">Starlight Cafe Menu</a></p>
-                <div><a href="#smallProject"><img class="project" src="./assets/images/restaurantmenu.png" alt="a coffee house menu drawn in the style of starry night with a coffee cup made out of stars"></a></div>
-                <p><a href="#smallProject">Barghest: An ARG Novel</a></p>
-                <div><a href="#smallProject"><img class="project" src="./assets/images/argnovel.png" alt="a black and white gothic style drawing of a wolf howling at a man sitting down in a library"></a></div>
-                <p><a href="#smallProject">Dice Roller</a></p>
-                <div><a href="#smallProject"></a> <img class="project" src="./assets/images/diceroller.png" alt="a water color drawing of 6 dice rolling on a table from a close up perspective"></a></div>
-                <p><a href="#smallProject">Meeting Scheduler</a></p>
-                <div><a href="#smallProject"><img class="project" src="./assets/images/meeting.png" alt="digital painting of a man on a computer having a virtual meeting with three very different people"></a></div>
-            </figure>
-        </section>
-        
-        <section> <!-- Extra space for contact or projects-->
+        <section class="row justify-center"> <!-- first two small project links, split off so boxes flex from 4x1 to 2x2 to 1x4-->
+            <div id="#menu">  
+                <figure class="code-card"> 
+                    <h3 class="card-header"><a href="#menu">Starlight Cafe Menu</a></h3>
+                    <div>
+                        <p> <a href="#menu"><img class="image200" src="./assets/images/restaurantmenu.png" alt="a coffee house menu drawn in the style of starry night with a coffee cup made out of stars"></a></p>
+                    </div>
+                </figure>
+            </div>
 
+               
+            <div id="#arg">  
+                <figure class="code-card extra-margin"> 
+                    <h3 class="card-header"> <a href="#arg"> Barghast: The ARG </a></h3>
+                    <div >
+                        <p> <img class="image200" src="./assets/images/argnovel.png" alt="a black and white gothic style drawing of a wolf howling at a man sitting down in a library"> </p>
+                    </div>
+                </figure>
+            </div>
+
+        <section class="row justify-center"> <!-- second two small projects -->
+            <div id="#dice">  
+                <figure class="code-card"> 
+                    <h3 class="card-header"> <a href="#dice">D&D Dice Roller </a></h3>
+                    <div>
+                        <p> <a href="#dice"><img class="image200" src="./assets/images/diceroller.png" alt="a water color drawing of 6 dice rolling on a table from a close up perspective"> </a></p>
+                    </div>
+                </figure>
+            </div>
+               
+            <div id="planner">  
+                <figure class="code-card"> 
+                    <h3 class="card-header"><a href="#planner">Meeting Planner</a></h3>
+                    <div >
+                        <p><a href="#planner"><img class="image200" src="./assets/images/meeting.png" alt="digital painting of a man on a computer having a virtual meeting with three very different people"></a></p>
+                    </div>
+                </figure>
+            </div>      
         </section>
     </main>
 
-
-
     <footer> <!-- contact footer -->
-        <h3 id="contact">Contact:</h3>
+        <h4 id="contact">Contact:</h4>
         <ul>
             <li>678-683-0897 </li>
             <li>Johnkersey2@yahoo.com</li>
