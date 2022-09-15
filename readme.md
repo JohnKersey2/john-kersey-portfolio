@@ -4,6 +4,9 @@
 ## Task
 In this challenge, I was to create the bare-blocks of a portfolio page I can alter and build up as I develop programs and learn more as a developer. 
 
+## Link to Deployed Application 
+![Link to Portfolio](https://johnkersey2.github.io/john-kersey-portfolio/)
+
 ## Grading Criteria
 I was to make sure I included:
 
